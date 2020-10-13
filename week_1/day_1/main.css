@@ -1,0 +1,46 @@
+/* 
+
+SELECTOR{
+    ATTRIBUTE : PROPERTY
+
+    height:
+    width:
+
+    margin:
+    padding:
+
+    display:
+    vertical-algin:
+
+
+}
+ID AND CLASS
+
+*/
+
+#main_title{
+    display: inline-block;
+    color: red;
+    vertical-align: middle;
+}
+h3{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#footer{
+    color: blue;
+}
+
+#cat{
+    width: 320px;
+    margin: 20px;
+    margin-left: 100px;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.body_text{
+    color: chocolate;
+    font-family: fantasy;
+}
