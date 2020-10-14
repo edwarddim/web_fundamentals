@@ -1,0 +1,42 @@
+#wrapper {
+    background-color: darkgreen;
+}
+
+header {
+    background-color: darkkhaki;
+}
+
+#splash {
+    background-color: lavender;
+}
+
+#featured {
+    background-color: lightblue;
+}
+
+#logo {
+    background-color: lightcoral;
+    display: inline-block;
+}
+
+#icons {
+    background-color: lightgoldenrodyellow;
+    display: inline-block;
+}
+
+#menu {
+    background-color: lightgreen;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    width: 500px;
+}
+
+#menu li {
+    list-style-type: none;
+}
+
+.featured-photo {
+    background-color: lightpink;
+    display: inline-block;
+}
