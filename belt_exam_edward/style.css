@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 970px;
+    background-color: plum;
+    min-height: 500px;
+}
+#header{
+    background-color: silver;
+    padding: 15px;
+}
+#header h1, #header h2{
+    display: inline-block;
+}
+#header h2{
+    margin-left: 460px;
+}
+#body{
+    padding: 20px;
+}
+
+#intro{
+    margin-bottom: 10px;
+}
+
+#intro img{
+    width: 400px;
+    border: 5px solid grey;
+}
+#about{
+    width: 450px;
+    height: 270px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: silver;
+    margin-left: 60px;
+}
+#about h1{
+    background-color: grey;
+    padding: 5px;
+}
+#about p{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 250px;
+    background-color: silver;
+    min-height: 100px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.card_intro img{
+    width: 100%;
+}
+
+.card_intro p{
+    margin:10px;
+    margin-bottom: 30px;
+}
+
+.tech img{
+    width: 40px;
+    margin: 2px;
+}
+
+.project_link{
+    margin-left: 85px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}

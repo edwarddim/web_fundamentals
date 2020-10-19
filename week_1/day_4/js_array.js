@@ -26,7 +26,7 @@ console.log(stringArray) // ["edward", "john", "steve", "bob", "brad", "eddie", 
 stringArray.pop()
 stringArray.pop()
 stringArray.pop()
-console.log(stirngArray) //["edward", "john", "steve", "bob"]
+console.log(stirngArray) // ["edward", "john", "steve", "bob"]
 
 // ARRAYS AND FOR LOOPS
 var numArr = [1,2,3,4,5,6,7,8,9,10]
