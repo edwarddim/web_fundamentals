@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+#container{
+    background-color: steelblue;
+    width: 970px;
+    min-height: 800px;
+}
