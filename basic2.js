@@ -8,8 +8,6 @@
 
 // IF WE SEE THREE EVEN NUMBERS IN A ROW WE PRINT "EVEN MORE SO"
 
-
-
 // DEFINING THE FUNCTION
 function evensAndOdds(array){
     var evenCount = 0

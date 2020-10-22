@@ -74,3 +74,27 @@ function coinChange(num) {
 }
 
 console.log(coinChange(137));
+
+
+// ----------------------- THURSDAY ------------------------- //
+// ---------------------------------------------------------- //
+// GIVEN AN ARRAY OF NUMBERS, RETURN AN ARRAY FILLED WITH ALL THE TWO NUM SUMS WITHIN THE ARRAY
+// twoNumSum([1,2,3]) => [2, 3, 4, 4, 5, 6]
+function twoNumSum(arr){
+        var newArr = [];
+        var sum = 0;
+        for(var i = 0; i < arr.length; i++) {
+                for(var j = i; j < arr.length; j++) {
+                        sum = arr[i] + arr[j];
+                        newArr.push(sum)
+                }
+        }
+        return newArr;
+}
+console.log(twoNumSum([1,2,3]))
+
+//I = 3[2]
+//J = 3[2]
+//SUM = 2
+// NEWARR = [2, 3, 4, 4, 5, 6]
+// [1,2,3]

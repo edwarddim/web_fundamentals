@@ -85,7 +85,12 @@ console.log(coinChange(51)) // => "2 QUARTER, 0 DIME, 0 NICKEL, 1 PENNY"
 
 // ----------------------- THURSDAY ------------------------- //
 // ---------------------------------------------------------- //
-
+// GIVEN AN ARRAY OF NUMBERS, RETURN AN ARRAY FILLED WITH ALL THE TWO NUM SUMS WITHIN THE ARRAY
+// twoNumSum([1,2,3]) => [2, 3, 4, 4, 5, 6]
+function twoNumSum(arr){
+    
+}
+console.log(twoNumSum([1,2,3]))
 
 
 

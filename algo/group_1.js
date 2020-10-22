@@ -46,3 +46,33 @@ function coinChange(amount){
     
 }
 
+// ----------------------- THURSDAY ------------------------- //
+// ---------------------------------------------------------- //
+// GIVEN AN ARRAY OF NUMBERS, RETURN AN ARRAY FILLED WITH ALL THE TWO NUM SUMS WITHIN THE ARRAY
+// twoNumSum([1,2,3]) => [2, 3, 4, 4, 5, 6]
+function twoNumSum(arr){
+    var newArr = [];
+    for(var i = 0; i < arr.length; i++){
+        for(var j = i; j < arr.length; j++){
+            // use push()
+            newArr.push(arr[i] + arr[j]);
+            // 1 + 1 = 2
+            // 1 + 2 = 3
+            // 1 + 3 = 4
+            // 2 + 1 = 3
+        }
+    }
+    return newArr;
+
+}
+console.log(twoNumSum([1,2,3]));
+
+
+var array = [1,2,3,4,5]
+for(var i = 0; i < array.length; i++){
+    for(var j = 0; j < array.length; j++){
+        console.log(i,j)
+    }
+}
+
+// [2, 3, 4, 4, 5, 6]

@@ -19,7 +19,7 @@ pushFront(arr, 9);
 var Cats = ["Purrseus", "Venus"];
 function pushFront(Cats, Kit){
     for(var i = Cats.length; i > -1; i--){
-        Cats[i] = Cats[i - 1]
+        Cats[i] = Cats[i - 1]      
     }
     Cats[0] = Kit
     return(Cats)
@@ -106,3 +106,29 @@ coinChange()
 
         }
         
+
+// ----------------------- THURSDAY ------------------------- //
+// ---------------------------------------------------------- //
+// GIVEN AN ARRAY OF NUMBERS, RETURN AN ARRAY FILLED WITH ALL THE TWO NUM SUMS WITHIN THE ARRAY
+// twoNumSum([1,2,3]) => [2, 3, 4, 4, 5, 6]
+function twoNumSum(arr){
+for(i = 0; 1 < arr.length; i++){
+    for(j = 0; < arr.length; j++)
+
+}
+}
+console.log(twoNumSum([1,2,3]))
+
+
+
+function TwoNumSum (array){
+    var newArr =[]
+    
+    for(var i = 0; i < array.length; i++){
+        for(var j = i ; j < array.length; j++){ // nice
+            newArr.push(array[i] + array[j])
+        }
+    }
+    return newArr;
+}
+console.log(TwoNumSum([1,2,3]))
